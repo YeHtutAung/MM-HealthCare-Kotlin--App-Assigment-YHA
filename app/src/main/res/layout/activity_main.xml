@@ -16,55 +16,59 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3.5">
+
+                <TextView
+                    android:id="@+id/tv_featured"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium_3"
+                    android:paddingLeft="@dimen/margin_medium_2"
+                    android:paddingRight="@dimen/margin_medium_2"
+                    android:text="Featured"
+                    android:textColor="@color/colorHeading"
+                    android:textSize="@dimen/text_regular_2x"
+                    android:layout_weight="1.4"/>
+
+                <TextView
+                    android:id="@+id/tv_forum"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium_3"
+                    android:layout_marginLeft="@dimen/margin_medium"
+                    android:paddingLeft="@dimen/margin_medium_2"
+                    android:paddingRight="@dimen/margin_medium_2"
+                    android:text="Forum"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="@dimen/text_regular_2x"
+                    android:layout_weight="1.1"/>
+
+                <TextView
+                    android:id="@+id/tv_feedback"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium_3"
+                    android:layout_marginLeft="@dimen/margin_medium"
+                    android:paddingLeft="@dimen/margin_medium_2"
+                    android:paddingRight="@dimen/margin_medium_2"
+                    android:text="Feedback"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="@dimen/text_regular_2x"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="3">
 
-        <TextView
-            android:id="@+id/tv_featured"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_medium_3"
-            android:paddingLeft="@dimen/margin_medium_2"
-            android:paddingRight="@dimen/margin_medium_2"
-            android:text="Featured"
-            android:textColor="@color/colorHeading"
-            android:textSize="@dimen/text_regular_2x"
-            android:layout_weight="1"/>
-
-        <TextView
-            android:id="@+id/tv_forum"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_medium_3"
-            android:layout_marginLeft="@dimen/margin_medium"
-            android:paddingLeft="@dimen/margin_medium_2"
-            android:paddingRight="@dimen/margin_medium_2"
-            android:text="Forum"
-            android:textColor="@color/colorSecondary"
-            android:textSize="@dimen/text_regular_2x"
-            android:layout_weight="1"/>
-
-        <TextView
-            android:id="@+id/tv_feedback"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_medium_3"
-            android:layout_marginLeft="@dimen/margin_medium"
-            android:paddingLeft="@dimen/margin_medium_2"
-            android:paddingRight="@dimen/margin_medium_2"
-            android:text="Feedback"
-            android:textColor="@color/colorSecondary"
-            android:textSize="@dimen/text_regular_2x"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
 
     <FrameLayout
         android:layout_width="match_parent"

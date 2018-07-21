@@ -3,11 +3,6 @@ package com.assignment.ideapro.mmhealthcare.assignment.kotlin.adapters
 import android.support.v7.widget.RecyclerView
 import com.assignment.ideapro.mmhealthcare.assignment.kotlin.viewholders.BaseViewHolder
 
-
-/**
- *
- * Created by Phyo Thiha on 7/10/18.
- */
 abstract class BaseAdapter<VH, W> : RecyclerView.Adapter<BaseViewHolder<W>>() {
 
     protected var mList: List<W>? = null

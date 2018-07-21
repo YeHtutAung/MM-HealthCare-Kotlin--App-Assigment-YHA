@@ -9,4 +9,6 @@
     <color name="colorHeading">#FFFFFF</color>
     <color name="colorSecondary">#fdab98</color>
     <color name="colorTextSecond">#757575</color>
+
+    <color name="colorImageBg">#FFFFFF</color>
 </resources>

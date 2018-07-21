@@ -1,9 +1,5 @@
 package com.assignment.ideapro.mmhealthcare.assignment.kotlin.utils
 
-/**
- *
- * Created by Phyo Thiha on 7/10/18.
- */
 class AppConstants {
 
     companion object {

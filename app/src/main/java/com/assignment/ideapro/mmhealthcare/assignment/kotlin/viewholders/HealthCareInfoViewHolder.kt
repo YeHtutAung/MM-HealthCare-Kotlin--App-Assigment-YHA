@@ -4,6 +4,7 @@ import android.view.View
 import com.assignment.ideapro.mmhealthcare.assignment.kotlin.R
 import com.assignment.ideapro.mmhealthcare.assignment.kotlin.data.vos.HealthCareInfoVO
 import com.assignment.ideapro.mmhealthcare.assignment.kotlin.utils.GlideApp
+import com.bumptech.glide.request.RequestOptions
 import kotlinx.android.synthetic.main.view_holder_health_care.view.*
 
 class HealthCareInfoViewHolder(itemView: View) :
@@ -29,7 +30,7 @@ class HealthCareInfoViewHolder(itemView: View) :
         GlideApp.with(itemView.iv_share)
                 .load(mData!!.author!!.authorPhoto)
                 .placeholder(R.drawable.ic_empty_placeholder)
-                .centerCrop()
+                .circleCrop()
                 .into(itemView.iv_share)
     }
 

@@ -6,10 +6,6 @@ import android.widget.RelativeLayout
 import com.assignment.ideapro.mmhealthcare.assignment.kotlin.R
 import kotlinx.android.synthetic.main.view_pod_empty.view.*
 
-/**
- *
- * Created by Phyo Thiha on 7/12/18.
- */
 class EmptyViewPod : RelativeLayout {
 
     constructor(context: Context?) : super(context)

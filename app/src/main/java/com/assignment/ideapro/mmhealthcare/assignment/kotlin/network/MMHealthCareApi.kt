@@ -7,10 +7,6 @@ import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.POST
 
-/**
- *
- * Created by Phyo Thiha on 7/10/18.
- */
 interface MMHealthCareApi {
 
     @FormUrlEncoded

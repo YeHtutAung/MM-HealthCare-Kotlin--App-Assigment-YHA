@@ -3,10 +3,6 @@ package com.assignment.ideapro.mmhealthcare.assignment.kotlin.viewholders
 import android.support.v7.widget.RecyclerView
 import android.view.View
 
-/**
- *
- * Created by Phyo Thiha on 7/10/18.
- */
 abstract class BaseViewHolder<W>(itemView: View) : RecyclerView.ViewHolder(itemView)
         , View.OnClickListener {
 

@@ -54,7 +54,7 @@ class RetrofitDataAgentImpl : MMHealthCareDataAgent {
                 val healthCareResponse: GetHealthCareResponse? = response!!.body()
                 if (healthCareResponse != null && healthCareResponse.isResponseOK()) {
 
-                    val successEvent = SuccessGetHealthCareEvent(healthCareResponse.healthCareInoList!!)
+                    val successEvent = SuccessGetHealthCareEvent(healthCareResponse.healthCareInfoList!!)
                     EventBus.getDefault().post(successEvent)
 
                 } else {
